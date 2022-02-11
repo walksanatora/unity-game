@@ -1,0 +1,10 @@
+# Starting compiling UnityEngine.TestRunner.dll
+/home/walksanator/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-9d70be29a0833e918bbd6a8db09d3eb6
+# Starting compiling UnityEngine.UI.dll
+/home/walksanator/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-16eccf1ac319fd1a4a7e84f4784461a3
+# Starting compiling endel.nativewebsocket.dll
+/home/walksanator/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-93e501d2d881854a59deb38d4d9c7eef
+# Starting compiling Unity.Timeline.dll
+/home/walksanator/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-7a1a9a15f6741553595570238239e62f
+# Starting compiling Unity.TextMeshPro.dll
+/home/walksanator/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b50b6dee1d8f3015996a2a9561983dfd
