@@ -98,7 +98,6 @@ GameObject:
   - component: {fileID: 3667481927704073009}
   - component: {fileID: 3667481927704073010}
   - component: {fileID: 3667481927704073035}
-  - component: {fileID: 2093020689314449562}
   m_Layer: 0
   m_Name: B E A N
   m_TagString: Player
@@ -147,7 +146,7 @@ MonoBehaviour:
   GameObjects:
     camera: {fileID: 3667481926876220154}
     jumpSfx: {fileID: 3667481927704073035}
-    temp: {fileID: 2093020689314449562}
+    temp: {fileID: 0}
 --- !u!33 &3667481927704073015
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -323,52 +322,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &2093020689314449562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3667481927704073011}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa3fb90afdf67247ca9b981b8e10ae44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  url: ws://localhost:8080
-  rawMessage:
-    m_PersistentCalls:
-      m_Calls: []
-  peerConnect:
-    m_PersistentCalls:
-      m_Calls: []
-  peerDisconnect:
-    m_PersistentCalls:
-      m_Calls: []
-  areaSubscribe:
-    m_PersistentCalls:
-      m_Calls: []
-  areaUnsubscribe:
-    m_PersistentCalls:
-      m_Calls: []
-  globalMessage:
-    m_PersistentCalls:
-      m_Calls: []
-  localMessage:
-    m_PersistentCalls:
-      m_Calls: []
-  recordCreate:
-    m_PersistentCalls:
-      m_Calls: []
-  recordRead:
-    m_PersistentCalls:
-      m_Calls: []
-  recordUpdate:
-    m_PersistentCalls:
-      m_Calls: []
-  recordDelete:
-    m_PersistentCalls:
-      m_Calls: []
-  recordReply:
-    m_PersistentCalls:
-      m_Calls: []

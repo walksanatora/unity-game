@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using WorldqlFb;
 using System;
 public class PlayerHandler : MonoBehaviour
 {
@@ -16,7 +15,7 @@ public class PlayerHandler : MonoBehaviour
     public struct Objects{
         public GameObject camera;
         public AudioSource jumpSfx;
-        public WorldQLClient temp;
+        //public WorldQLClient temp;
     }
     [Serializable]
     public struct MovementValues{
@@ -70,9 +69,9 @@ public class PlayerHandler : MonoBehaviour
         //exit the game when `esc` is pressed
         if(Input.GetKey(KeyCode.Escape)){
             print("exiting Game");
-            if (GameObjects.temp != null){
+            /*if (GameObjects.temp != null){
                 GameObjects.temp.close();
-            }
+            }*/
             Application.Quit(0);
             #if UNITY_EDITOR
             UnityEditor.EditorApplication.isPlaying = false;
